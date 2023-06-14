@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+    background-image: linear-gradient(120deg,#0D5199, #2783E6, #459FFF);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Krona One', sans-serif;
+}
+.cabecalho{
+    background-color: #E58E00;
+}
+.cabecalho-navegacao{
+    padding: 2% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.cabecalho-navegacao a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.2s;
+    font-family: 'Montserrat', sans-serif;
+}
+.cabecalho-navegacao a:hover{
+    letter-spacing: 3px;
+}
+
+.principal{
+    padding: 8% 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.principal-nome{
+    text-align: center;
+}
+.principal-secao{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+}
+
+.principal-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 50%;
+    
+}
+.principal-conteudo h1{
+    font-size: 2rem;
+    text-align: center;
+}
+.principal-conteudo p{
+    font-size: 1.25rem;
+    text-align: justify;
+}
+img{
+    width: 50%;
+}
+.principal-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.principal-links a{
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5% 15%;
+    transition: 0.3s;
+}
+.principal-links a:hover{
+    letter-spacing: 2px;
+    background-color: white;
+    color: #2783E6;
+}
+.rodape{
+    background-color: #E58E00;
+    padding: 2% 5%;
+}
+.rodape p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+.principal-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.principal-sobre-foto{
+    border-radius: 25px;
+}
+.principal-sobre-conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.principal-sobre-conteudo h1{
+    font-size: 2rem;
+}
+.principal-sobre-conteudo p{
+    font-size: 1.25rem;
+    text-align: justify;
+}
